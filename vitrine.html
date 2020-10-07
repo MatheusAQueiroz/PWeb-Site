@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Vitrine</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+    <body>
+        <!-- Conteúdo da Página -->
+        <div id="conteudo-pagina">
+            <div id="conteudo-alinhamento">
+                <!-- Menu superior -->
+                <div class="menu-container">
+                    <div id="esquerda"></div>
+                    <div id="logo">
+                        <a href="./vitrine.html" title>
+                            <img class='logo-image' src="./imagens/header/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div id="direita">
+                        <div class="row container-fluid pt-3 pb-3">
+                            <div class="col-3 "></div>
+                            <div class="col-5 p-0 esc-med">
+                                <input type="text" class="form-block form-control" placeholder="Digite o item desejado">
+                            </div>
+                            <div class="col-2 ">
+                                <button class="btn btn-block btn-light esc-med">Buscar</button>
+                            </div>
+                            <div class="col-2">
+                                <a href="./login.html">
+                                    <img src="./imagens/header/perfil.png" alt="perfil" style="height: 38px; width: 38px;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu Inferior -->
+                <div id="menu" align="center">		
+                    <div class="mt-5 mb-5 border border-seccondary">
+                        <div class="btn-group">
+                            <button type="button" class="btn custom-outline btn-basic">Camisetas</button>
+                            <button type="button" class="btn custom-outline btn-basic">Moletons</button>
+                            <button type="button" class="btn custom-outline btn-basic">Calças</button>
+                            <button type="button" class="btn custom-outline btn-basic">Tênis</button>
+                            <button type="button" class="btn custom-outline btn-basic">Bonés</button>
+                            <button type="button" class="btn custom-outline btn-basic">Shorts</button>	
+                        </div>
+                    </div>
+                </div>
+                <div class="container mb-5">
+                    <!-- Cards --->
+                    <div class="card-columns">
+                        <div class="card">
+                            <img class="card-img-top" src="./imagens/camiseta.png" alt="Card image">
+                            <div class="card-body">
+                                <h4 id="CardNome"  class="card-title">Camiseta Astroworld</h4>
+                                <p class="card-text">R$90</p>
+                                <a href="./detalhe.html" class="btn btn-block btn-danger">Exibir Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./imagens/calca.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 id="CardNome" class="card-title">Calça Travis Scott Astroworld</h4>
+                                <p class="card-text">R$120</p>
+                                <a href="#" class="btn btn-block btn-danger">Exibir Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./imagens/tenis.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 id="CardNome" class="card-title">Tênis Nike Travis Scott x Air Jordan 1 </h4>
+                                <p class="card-text">R$350</p>
+                                <a href="#" class="btn btn-block btn-danger">Exibir Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./imagens/shorts.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 id="CardNome" class="card-title">Shorts Travis Scott x Cactus Jack</h4>
+                                <p class="card-text">R$70</p>
+                                <a href="#" class="btn btn-block btn-danger">Exibir Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./imagens/moletom.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 id="CardNome" class="card-title">Moletom Azul Travis Scott x Cactus Jack</h4>
+                                <p class="card-text">R$220</p>
+                                <a href="#" class="btn btn-block btn-danger">Exibir Detalhes</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="./imagens/bone.jpg" alt="Card image">
+                            <div class="card-body">
+                                <h4 id="CardNome" class="card-title">Boné Five Panel Preto Astroworld</h4>
+                                <p class="card-text">R$70</p>
+                                <a href="#" class="btn btn-block btn-danger">Exibir Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <footer id="rodape">
+            </footer>
+        </div>
+        <!-- Scripts de JQuery, Popper.js e Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>       
+    </body>
+</html>
