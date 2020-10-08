@@ -1,0 +1,7 @@
+v0.5.1 (Matheus Alves)
+-Git inicializado e compartilhado
+
+v0.5.2
+-Footer agora tem "Todos os direitos reservados.®"
+-Os cards da vitrine agora pertencem a um card-group ao invés de card-columns
+-A imagem em detalhe agora é da classe img-thumbnail e é cortada em um quadrado de tamanho fixo
