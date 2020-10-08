@@ -9,3 +9,6 @@ v0.5.2
 v0.6.1
 -Tela relativa a cesta de produtos
 -Consolidação e implementação do menu de telas em todas as telas (Ainda sem menu dropdown)
+
+v1.0.0
+-Páginas estáticas completas para a entrega da P1
